@@ -1,7 +1,9 @@
 # Lab report 1
 ## **Installing VSCode**
 1) First, you go to this website https://code.visualstudio.com/ to download and install VSCode on your computer.
+
 2) If you are using the windows operating system then you should download the version for windows, if you are using Mac then you should download the version for Mac OS.
+
 3) After you have finished downloading, you can start the installation process. You can click next on everything.
 ![Image](CSE15L_Images\LabReport1-1.png)
 ## **Remotely Connecting**
