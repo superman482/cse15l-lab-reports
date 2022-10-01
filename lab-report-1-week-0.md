@@ -20,7 +20,7 @@
 
 2) You can also create a new java project in your directory and have it compile and run using the terminal command line. For example, I created a java project that output the name of the operation system, the user's name, the user's home directory.
 ![Image](CSE15L_Images\LabReport1-5.png)
-## **Moving Files with `scp`**
+## **Moving Files with "scp"**
 1) During your time at UCSD, you are going to be making a lot of new programming projects. Most of them you are going to be working at your own home, on your own computer. What happened if you want to copy those programs onto the server computers, so maybe your tutor can try to run it?
 
 2) "scp" is the command that allows you to copy the file that you want onto the directory on the server's computer. For example, the java project I created earlier was made on my computer. I can move it to the server's computer by using the "scp" command.
