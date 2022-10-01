@@ -30,7 +30,7 @@
 ## **Setting An SSH Key**
 1) It can be annoying if you have to keep inputting your password to log into the server's computer. In some cases when you have bad wifi that keeps disconnecting you, it can become frustrating. We can make it better by creating a log in key that holds your password that respond to your account which eliminate the typing your password process.
 
-2) First you have to generate a pair of keys using the command `ssh-keygen`, the terminal will says it is generating public/private rsa key pair, then it will ask you to enter file in which to save the key. For that you just have to press enter, it will save that pair of key to the default path at **/Users/<user.name>/.ssh/id_rsa**. Next, it will ask you to set a passphrase, you can choose to set a passphrase, but I chose to have an empty passphrase, so I just pressed enter. You have to enter your passphrase to confirm setting your passphrase. Finally, it will automatically generate your keys.
+2) First you have to generate a pair of keys using the command `ssh-keygen`, the terminal will says it is generating public/private rsa key pair, then it will ask you to enter file in which to save the key. For that you just have to press enter, it will save that pair of key to the default path at **/Users/user.name/.ssh/id_rsa**. Next, it will ask you to set a passphrase, you can choose to set a passphrase, but I chose to have an empty passphrase, so I just pressed enter. You have to enter your passphrase to confirm setting your passphrase. Finally, it will automatically generate your keys.
 
 ![Image](CSE15L_Images\LabReport1-7.png)
 
