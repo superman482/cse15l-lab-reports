@@ -9,11 +9,14 @@
 ## **Remotely Connecting**
 1) Before you go on with this step, you first have to figure out your username for the remote access, you can find this out by going to this website [https://sdacs.ucsd.edu/~icc/index.php](https://sdacs.ucsd.edu/~icc/index.php).
 
+![Image](CSE15L_Images\LabReport1-2.png)
+
 2) In the Additional account section, you can find your remote access username. For example, my account user name is called `cs15lfa22fw`.
 
-3) After figuring out your username, you have to set a new password for these additional accounts. You do so by clicking on the hot link that says “change your password” right below the Account Lookup Result. (It can take up to an hour for your password to start working) Make sure when you use "ssh" command you have to include the domain which is `@ieng6.ucsd.edu`.
-![Image](CSE15L_Images\LabReport1-2.png)
 ![Image](CSE15L_Images\LabReport1-3.png)
+
+3) After figuring out your username, you have to set a new password for these additional accounts. You do so by clicking on the hot link that says “change your password” right below the Account Lookup Result. (It can take up to an hour for your password to start working) Make sure when you use "ssh" command you have to include the domain which is `@ieng6.ucsd.edu`.
+
 ![Image](CSE15L_Images\LabReport1-4.png)
 ## **Trying Some Commands**
 1) After successfuly connecting into the school's server computer, you can start trying different commands. For example, command "cd" allows you to change directory; command "ls" allows you to see the list of all the files and folders in the directory you are currently at.
@@ -44,7 +47,7 @@
 2) First tip is that you can combine multiple commands at a time. For example, you want to compile and run a program in a different directory, you can combine all three commands "cp", "javac", and "java" separated by a "semi-colon (;)".
 ![Image](CSE15L_Images\LabReport1-9.png)
 
-3) The last tip I have is that you if you want to use a command you have used recently, you can press the up arrow on your keyboard and you can browse through the list of commands you have used in the past. This tip will save you a lot of time in the long run
+3) The last tip I have is that you if you want to use a command you have used recently, you can press the up arrow on your keyboard and you can browse through the list of commands you have used in the past. This tip will save you a lot of time in the long run.
 
 ---
 # *Thank you and Good luck*
