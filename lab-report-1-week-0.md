@@ -41,7 +41,7 @@
 ## **Optimizing Remote Running**
 1) First of all, if you have reached this step, then I want to congrats you on successfully setting up your account. You can now freely connect to the supercomputer and use it to compile and run any program you want. This part is only a small tip that I can give you to save you some time while you are using terminal.
 
-2) First tip is that you can combine multiple commands at a time. For example, you want to compile and run a program in a different directory, you can combine all three commands "cp", "javac", and "java" separated by a "semi-colon(;)".
+2) First tip is that you can combine multiple commands at a time. For example, you want to compile and run a program in a different directory, you can combine all three commands "cp", "javac", and "java" separated by a "semi-colon (;)".
 ![Image](CSE15L_Images\LabReport1-9.png)
 
 3) The last tip I have is that you if you want to use a command you have used recently, you can press the up arrow on your keyboard and you can browse through the list of commands you have used in the past. This tip will save you a lot of time in the long run
