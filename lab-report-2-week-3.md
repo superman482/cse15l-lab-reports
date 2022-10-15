@@ -73,13 +73,19 @@ The two bugs I chose are: the **"reversed"** method in the ArrayExamples.java fi
 ### Reverse method:
 
 1) The failure-inducing input is { 0, 1, 2}
+
 2) The symptom is { 0, 0, 0}
+
 3) The code that needs to be fix is `arr[i] = newArray[arr.length - i - 1];`
+
 4) The buggy thing about the code is that it was trying to replace the elements from the input array with a new and empty array of integers.
  
 ### Filter method:
 
 1) The failure-inducing input is { hello, world, hi}
+
 2) The symptom is { hi, world, hello}
+
 3) The code that needs to be fix is `result.add(0, s);`
+
 4) The buggy thing about the code is that it was trying to add the elements from the input list to the head of the list which means the new list will become the input list in reversed.
