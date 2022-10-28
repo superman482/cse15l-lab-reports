@@ -72,20 +72,46 @@ The two bugs I chose are: the **"reversed"** method in the ArrayExamples.java fi
 
 ### Reverse method:
 
-1) The failure-inducing input is { 0, 1, 2}
+1) 
+![Image](CSE15L_Images\FailureInducingInput1.png)
 
-2) The symptom is { 0, 0, 0}
+    The failure-inducing input is { 0, 1, 2}
 
-3) The code that needs to be fix is `arr[i] = newArray[arr.length - i - 1];`
+2) 
+![Image](CSE15L_Images\Symptom1.png)
+
+    The symptom is { 0, 0, 0}
+
+3) 
+![Image](CSE15L_Images\Bug1.png)
+
+    The code that needs to be fix is "arr[i] = newArray[arr.length - i - 1];" because it is replacing all of the elements in the input array with the elements in the empty array.
 
 4) The buggy thing about the code is that it was trying to replace the elements from the input array with a new and empty array of integers.
+
+![Image](CSE15L_Images\FixedCode1.png)
+
+`I fixed the code by swapping arr with newArray on line 21`
  
 ### Filter method:
 
-1) The failure-inducing input is { hello, world, hi}
+1) 
+![Image](CSE15L_Images\FailureInducingInput2.png)
 
-2) The symptom is { hi, world, hello}
+    The failure-inducing input is { hello, world, hi}
 
-3) The code that needs to be fix is `result.add(0, s);`
+2) 
+![Image](CSE15L_Images\Symptom2.png)
+
+    The symptom is { hi, world, hello}
+
+3) 
+![Image](CSE15L_Images\Bug2.png)
+
+    The line that needs to be fix is "result.add(0, s);" because it adding every new elements to the head of the list which reversed the order of input list.
 
 4) The buggy thing about the code is that it was trying to add the elements from the input list to the head of the list which means the new list will become the input list in reversed.
+
+![Image](CSE15L_Images\FixedCode2.png)
+
+`I fixed the code by getting rid of the first argument from the result.add() method.`
