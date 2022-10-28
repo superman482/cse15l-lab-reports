@@ -73,6 +73,7 @@ The two bugs I chose are: the **"reversed"** method in the ArrayExamples.java fi
 ### Reverse method:
 
 1) 
+
 ![Image](CSE15L_Images\FailureInducingInput1.png)
 
     The failure-inducing input is { 0, 1, 2}
@@ -83,6 +84,7 @@ The two bugs I chose are: the **"reversed"** method in the ArrayExamples.java fi
     The symptom is { 0, 0, 0}
 
 3) 
+
 ![Image](CSE15L_Images\Bug1.png)
 
     The code that needs to be fix is "arr[i] = newArray[arr.length - i - 1];" because it is replacing all of the elements in the input array with the elements in the empty array.
@@ -96,6 +98,7 @@ The two bugs I chose are: the **"reversed"** method in the ArrayExamples.java fi
 ### Filter method:
 
 1) 
+
 ![Image](CSE15L_Images\FailureInducingInput2.png)
 
     The failure-inducing input is { hello, world, hi}
@@ -106,6 +109,7 @@ The two bugs I chose are: the **"reversed"** method in the ArrayExamples.java fi
     The symptom is { hi, world, hello}
 
 3) 
+
 ![Image](CSE15L_Images\Bug2.png)
 
     The line that needs to be fix is "result.add(0, s);" because it adding every new elements to the head of the list which reversed the order of input list.
