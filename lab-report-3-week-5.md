@@ -166,4 +166,4 @@ technical/911report/chapter-7.txt-                two were aggressive, rude, and
 
 **BLOCK 3 - This block is searching within every files inside of the 911report subdirectory that contains the word "nice" ignores capitalization. Then print out all the line that contains the word "nice" and 1 line after it as well.**
 
-*The purpose of `grep -A` is to search for the file that contains the "word" and print the search line and n number of lines after the search line. We can use this command to look for the error line in our code and also look at the lines of code after it as well.*
+*The purpose of `grep -A or grep -B or grep -C` is to search for the file that contains the "word" and print the search line and n number of lines after the search line. We can use this command to look for the error line in our code and also look at the lines of code after it as well.*
