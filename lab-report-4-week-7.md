@@ -9,7 +9,7 @@
 
     Each one of these prompts requires one key stroke <y>. Each time, the computer will replace the word "start" with "base" and move on to the next place that has the word "start" and ask for another user input.
 
-*`<Shift>+<:>, <%>, <s>, </>, <s>, <t>, <a>, <r>, <t>, </>, <b>, <a>, <s>, <e>, </>, <g>, <c>, <Enter>, <y>, <y>, <y>, <n>`. In total, there are 23 keystrokes required to place all the words "start" with the word "base"*
+*`<Shift>+<:>, <%>, <s>, </>, <s>, <t>, <a>, <r>, <t>, </>, <b>, <a>, <s>, <e>, </>, <g>, <c>, <Enter>, <y>, <y>, <y>, <n>`. In total, there are 23 keystrokes required to replace all the words "start" with the word "base"*
 
 ## **Part 2**
 
