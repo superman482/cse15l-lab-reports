@@ -60,7 +60,8 @@
 55     TOTAL_GRADE=1
 56     echo "Amazing, you passed every tests"
 57 else
-58     TESTS_RAN=$(grep "^Tests" stdout.txt | cut -d " " -f 3 | cut -b 1) #Getting the number of ran tests. 59     TESTS_FAILED=$(grep "^Tests" stdout.txt | cut -d " " -f 6) #Getting the number of failed tests.
+58     TESTS_RAN=$(grep "^Tests" stdout.txt | cut -d " " -f 3 | cut -b 1) #Getting the number of ran tests.
+59     TESTS_FAILED=$(grep "^Tests" stdout.txt | cut -d " " -f 6) #Getting the number of failed tests.
 60     TOTAL_GRADE=$(printf %.2f "$((10**2 * ($TESTS_RAN - $TESTS_FAILED) / $TESTS_RAN))e-2") #Final version
 61 fi
 62
