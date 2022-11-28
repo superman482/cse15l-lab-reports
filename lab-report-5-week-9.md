@@ -82,22 +82,22 @@
 
 ![Image](CSE15L_Images/LabReport5-2.png)
 
-* The standard output of the echo command is just `---Deleting Old Submission---`
-* The result of the *if* statement on line 11 is true because I had been testing my grade script, so there is already a "student-submission" in my repository, so the program found and delete it.
-* The standard output of the next echo command is `---Cloning New Submission---`
-* For the git clone command, the standard output of this would be the process of it cloning the student's submission repository down to your local computer and the standard error would be if you didn't include a link to the repository.
-* The standard output of the next echo command is `Finish cloning student-submission`.
-* Then, I echo `---Copying Test File---` indicating, the next step is copying the test file into the "student-submission" directory.
-* The result of the *if* statement on line 25 is true, there is only 1 case where that statement is false and that is in the case of the third submission. Because there is a **ListExamples.java** file inside of the "student-submission" directory, I will copy the test file into the "student-submission" directory. Finally, I echo `Copied Test Successfully`.
-* Next, I change into the directory of the "student-submission". The standard error of this command is something that says `student-submission doesn't exist`.
-* After successfully changing into the student-submission directory, I echo that I'm currently `In student-submission/`.
-* I move onto to compiling all the java files to prepare for testing. Before compiling I echo `---Compiling---`.
-* The standard output of the *javac* command is nothing because it means it has successfully compiled which is what happened in this submission. If it doesn't compile, then it would display the errors in the stderr.txt file. Therefore, the *if* statement is true.
-* Because the file compiled, I moved onto testing. First I echo that I will be `---Running Some Tests---` on the ListExamples.java file.
-* On the next command, the *java* command, I run the TestListExamples file to test the methods in the ListExamples file. All the tests passed, so it will push the result into the standard output text file and that means the result of the *if* statement is true.
-* Because the *if* statement is true, it will sets the variable **TOTAL_GRADE** to **1** and echos a message congrating the student `Amazing, you passed every tests`.
-* The last part is printing the final score that the student will receives, so I echo to tell the student that this part is `---Printing Final Score---`.
-* Finally, the *printf* command is for printing. The standard output of that would be the expected result which is a message that says "Your score is **1**/1". The standard error of this would be something like the `syntax is incorrect` or `command not found`.
+* The standard output of the echo command is just `---Deleting Old Submission---`(Exit code is 0)
+* The result of the *if* statement on line 11 is true because I had been testing my grade script, so there is already a "student-submission" in my repository, so the program found and delete it. (Exit code is 0)
+* The standard output of the next echo command is `---Cloning New Submission---` (Exit code is 0)
+* For the git clone command, the standard output of this would be the process of it cloning the student's submission repository down to your local computer and the standard error would be if you didn't include a link to the repository. (Exit code is 0)
+* The standard output of the next echo command is `Finish cloning student-submission`. (Exit code is 0)
+* Then, I echo `---Copying Test File---` indicating, the next step is copying the test file into the "student-submission" directory. (Exit code is 0)
+* The result of the *if* statement on line 25 is true, there is only 1 case where that statement is false and that is in the case of the third submission. Because there is a **ListExamples.java** file inside of the "student-submission" directory, I will copy the test file into the "student-submission" directory. Finally, I echo `Copied Test Successfully`. (Exit code is 0)
+* Next, I change into the directory of the "student-submission". The standard error of this command is something that says `student-submission doesn't exist`. (Exit code is 0)
+* After successfully changing into the student-submission directory, I echo that I'm currently `In student-submission/`. (Exit code is 0)
+* I move onto to compiling all the java files to prepare for testing. Before compiling I echo `---Compiling---`. (Exit code is 0)
+* The standard output of the *javac* command is nothing because it means it has successfully compiled which is what happened in this submission. If it doesn't compile, then it would display the errors in the stderr.txt file. Therefore, the *if* statement is true. (Exit code is 0)
+* Because the file compiled, I moved onto testing. First I echo that I will be `---Running Some Tests---` on the ListExamples.java file. (Exit code is 0)
+* On the next command, the *java* command, I run the TestListExamples file to test the methods in the ListExamples file. All the tests passed, so it will push the result into the standard output text file and that means the result of the *if* statement is true. (Exit code is 0)
+* Because the *if* statement is true, it will sets the variable **TOTAL_GRADE** to **1** and echos a message congrating the student `Amazing, you passed every tests`. (Exit code is 0)
+* The last part is printing the final score that the student will receives, so I echo to tell the student that this part is `---Printing Final Score---`. (Exit code is 0)
+* Finally, the *printf* command is for printing. The standard output of that would be the expected result which is a message that says "Your score is **1**/1". The standard error of this would be something like the `syntax is incorrect` or `command not found`. (Exit code is 0)
 
 ### *Third Submission*:
 
